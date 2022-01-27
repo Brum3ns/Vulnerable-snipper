@@ -14,5 +14,10 @@ vulnerable.py "input"
 Where **Vulnerable.py** is the vulnerable code and **input** is the user input to demonstraight a GET/POST request inside the CLI.
 *It's important to use the quotes otherwise your taking advantage of the CLI futures which you shoulden't. Since we focus on the vulnerable code snipper not a way to *manupulate* the terminal syntax itself.*
 
+
+### Support
+If you need an extra hint, you can contact me at: `Brumens@protonmail.com`
+
 ~ *Happy hacking*
+
 
