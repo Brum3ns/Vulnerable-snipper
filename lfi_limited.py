@@ -19,8 +19,8 @@ try:
         l = l.replace('\n', '')
         print(l)
 except:
-    print(':: This file do not exist!')
+    #I think this output lies to you...
+    print(':: This file do not exist:', str(input))
 
 #Delete memory by killing the script
 globals().clear()
-sys.exit()
