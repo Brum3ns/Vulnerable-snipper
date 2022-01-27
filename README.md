@@ -2,6 +2,7 @@
 
 # Vulnerable-snipper
 Vulnerable snipper to learn how the backend can be manupulated by user input.
+[!] All of this files is vulnerable. do **NOT** use similar code when programming.
 
 ## Description
 This files contains different files that give an example how bugs can accure in the backend systems and what type of code style that is used.
