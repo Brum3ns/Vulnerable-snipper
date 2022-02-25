@@ -1,0 +1,13 @@
+[1_RCE]
+
+Payload: $(whoami)
+
+Description:
+The file tries to filter almost all specia chars but forgot "(", ")", "$". It then read the input from the user.
+The user is only suppose to run the "ls" command to see content.
+
+Issue:
+
+Because the file uses "os.system()" instead of a custom function that would be much more secure.
+It's possible to take advantage of the system CLI syntax. Therefore "$(<command>)" works because it will execute
+a command inside itself even if the core command "ls" gets an error. Which leads to remote code execution (RCE).

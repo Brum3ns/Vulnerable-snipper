@@ -1,0 +1,12 @@
+[1_IDOR]
+
+Description:
+
+The issue is that the if statment do check with "==" and not "&&".
+The diffierent. This means if both is "true" or "false" in either way
+it will give premission.
+
+Issue:
+Using "==" instead of "&&" in the IF statment. With one "a" function
+checking the other "b" function which execute "a" inside "b" and always
+leave both return values into "true"/"false".

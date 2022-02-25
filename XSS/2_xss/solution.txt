@@ -1,0 +1,16 @@
+[2_XSS.php]
+
+[Desciption]
+
+The function is waiting for a user input to give a valid page on it's domain. It filter the page extensions and check for slashes in the filename.
+If everything seems good. It display the page name that was requested by the user and will "output" the page content (not really in the code... it's not the focus in this snipper)
+
+
+[issue]
+The focus is that the function is vulnerable to XSS. It's highly vulnerable to LFI but since it's outputing the file in the snipper this wasen't the focus area.
+The focus in this code is that the filename can be used as a payload to execute Javasript and preform an XSS attack. It tries to filter the file with slashes (Very bad filter as well)
+But it totally forgot to filter for other bugs like example XSS.
+
+[Take away]
+When filtering a function always remember that it's more than one bug that can be exploited in it. For example this is highly vulnerable to LFI but it's also vulnerable to XSS.
+Which wasen't filtered at all. 

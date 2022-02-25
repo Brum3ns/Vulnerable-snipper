@@ -1,0 +1,9 @@
+[1_passwordReset.php]
+
+[Description]
+The code check for a valid email and generate a token to preform a reset link to recover the password. However it do take the
+'Host header' value from the request. This makes it possible to hijack the link inside the mail that is later sent to the user.
+
+[Issue]
+The code is vulnerable to 'Host header injection' that leads to reset link manupulation. If the attack is successfully and the
+user clicks on the reset link and then change hes/her password. It is then given to the leaked to the attackers. 

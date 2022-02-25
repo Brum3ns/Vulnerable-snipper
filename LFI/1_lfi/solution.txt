@@ -1,0 +1,12 @@
+[1_LFI]
+
+Payload: secret%252fsecret
+
+Description:
+
+The payload works because the file decodes the user input valid two times. but only checks the first.
+
+Issue:
+
+The filter url decode the valid and check for slashes and dots. but it won't see does if it's double url encoded.
+Therefore the filter sees "%2f" but before it execute open() it decode it once again and sees "/".

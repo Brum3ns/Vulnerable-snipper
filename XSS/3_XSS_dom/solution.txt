@@ -1,0 +1,15 @@
+[Description]
+
+The code use the "s" query to search on the client side for results with the "collect()" function.
+
+[Issue]
+
+The "s" query is filtered "decent" in the backend since it delete <,>," but the variable in the Javascript code uses ' to filter it's value.
+It's then passed "document.write()". This function just like HTML tries to auto correct this by replacing the client side view to make it 
+look like it's isolated by double quotes ("). 
+
+This is in fact wrong since it's isolated by a single qoute ('). This means that a payload like: x'onmouseover=alert(1)//
+Will execute it even if it looks like it's isolated with (") but in fact isen't. (Firefox browser - Newest version)
+
+[Payload]
+x'onmouseover=alert(1)//

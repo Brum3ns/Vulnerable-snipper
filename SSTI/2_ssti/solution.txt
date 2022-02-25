@@ -1,0 +1,11 @@
+[2_SSTI]
+
+Description:
+The code use "user input" to search in it's store. However it do not filter
+the return value of the template render.
+
+Issue:
+Payload: {{2000-663}} => 1337
+
+An attacker is able to execute SSTI to infect the backend system
+

@@ -1,0 +1,16 @@
+[1_SQLi]
+
+Description:
+
+This script connect to the backend databse and it's purpose is to change the username inside the profile page.
+It first checks the username "id" by user input. and run a SQL statment to extract the current username for that user.
+
+Issue:
+
+Payload: sleep(1) 
+> Will sleep "x" row that is in the table. At "line 24".
+
+
+The issue is that neighter user input is filtered. If you infect the "id" when it's reading the user input. It do not
+convert the "id" variable into an (int) type or filter it. This makes it possible to get access to the database fully.
+
