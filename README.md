@@ -1,8 +1,11 @@
-[**IN Progress!**]
-
 # Vulnerable-snipper
 Vulnerable snipper to learn how the backend can be manupulated by user input.
-> All of this files is vulnerable. do **NOT** use similar code when programming.
+**[WARNING]** *All of this files is vulnerable. do **NOT** use similar code when programming.*
+
+> All this vulnerable snippers are cooperation with [#SecurityExplained](https://twitter.com/hashtag/SecurityExplained?src=hashtag_click)*. This awesome way of learning
+> is created by **[Harsh Bothra](https://twitter.com/harshbothra_)**. More content can be found [HERE](https://github.com/harsh-bothra/SecurityExplained)!
+
+
 
 ## Description
 This files contains different files that give an example how bugs can accure in the backend systems and what type of code style that is used.
@@ -24,5 +27,3 @@ git clone https://github.com/Brum3ns/Vulnerable-snipper.git
 If you need an extra hint, you can contact me at: `Brumens@protonmail.com`
 
 ~ *Happy hacking*
-
-
