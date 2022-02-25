@@ -24,6 +24,8 @@ git clone https://github.com/Brum3ns/Vulnerable-snipper.git
 
 
 ### Support
-If you need an extra hint, you can contact me at: `Brumens@protonmail.com`
+If you need an extra hint, you can contact me at!
+Email: `Brumens@protonmail.com`
+Discord: `Brumens#3249`
 
 ~ *Happy hacking*
