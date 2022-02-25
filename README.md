@@ -18,6 +18,7 @@ Where **Vulnerable.py** is the vulnerable code and **input** is the user input t
 *It's important to use the quotes otherwise your taking advantage of the CLI futures which you shoulden't. Since we focus on the vulnerable code snipper not a way to *manupulate* the terminal syntax itself.*
 
 ## Install
+*I recommend you run all code inside a docker/sandbox enviroment (if it's a webserver involved). No snipper will EVER need root privilegas to work*
 ```
 git clone https://github.com/Brum3ns/Vulnerable-snipper.git
 ```
@@ -25,7 +26,7 @@ git clone https://github.com/Brum3ns/Vulnerable-snipper.git
 
 ### Support
 If you need an extra hint, you can contact me at!
-Email: `Brumens@protonmail.com`
-Discord: `Brumens#3249`
+* Email: `Brumens@protonmail.com`
+* Discord: `Brumens#3249`
 
 ~ *Happy hacking*
